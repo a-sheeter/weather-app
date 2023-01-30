@@ -14,7 +14,6 @@ days=number of days (only required for forecast)
 */
 
 const futureWeather = async () => {
-    let zipCode = '43113';
     const params = `?key=${apiKey}&q=auto:ip&days=3`;
     const fetchRequest = `${baseUrl}${forecastMethod}${params}`;
 
