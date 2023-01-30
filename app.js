@@ -2,7 +2,7 @@
 */
 
 const baseUrl = 'http://api.weatherapi.com/v1';
-const apiKey = '5c351d3ec8e743d793f151308233001';
+const apiKey = '<your api key>';
 const currentMethod = '/current.json';
 const forecastMethod = '/forecast.json';
 
